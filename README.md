@@ -4,21 +4,22 @@ Used NODEJS, MONGODB to integrate pipedrive and Bling
 
 When starting, enter the folder pipedriveBlingIntegration
 
-cd 'pipedriveBlingIntegration'
+
+```cd 'pipedriveBlingIntegration```
 
 after that install the dependencies
 
-npm install
+```npm install```
 
 #ENDPOINTS
 
-#Deals:
+# Deals:
     GET: localhost:3000/deals
         Responsible for collecting the deals saved in the table.
     PUT: localhost:3000/deals
         Responsible for collecting the pipedrive deals and adding to the table.
 
-#Orders:
+# Orders:
     GET: localhost:3000/order
         Responsible for collecting the orders saved in the table.
     PUT: localhost:3000/order
