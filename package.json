@@ -1,0 +1,34 @@
+{
+  "name": "pipedriveblingintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuszeggio/pipedriveBlingIntegration.git"
+  },
+  "author": "Matheus Zeggio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheuszeggio/pipedriveBlingIntegration/issues"
+  },
+  "homepage": "https://github.com/matheuszeggio/pipedriveBlingIntegration#readme",
+  "dependencies": {
+    "circular-json": "^0.5.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "js2xmlparser": "^4.0.1",
+    "json-beautify": "^1.1.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8",
+    "nodemon": "^2.0.13",
+    "normalize-mongoose": "0.0.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12",
+    "xml-js": "^1.6.11"
+  }
+}
